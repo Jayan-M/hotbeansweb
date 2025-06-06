@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join Our Team - Hot Beans Web</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <style>
+      /* Custom Styles */
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+      }
+
+      /* Full-width top image with thinner height */
+      .top-image-container {
+        width: 100%;
+        height: 200px; /* Make the image thinner */
+        overflow: hidden;
+      }
+
+      .top-image-container img {
+        width: 100%;  /* Make image stretch across the full width */
+        height: 100%; /* Adjust height to make it thinner */
+        object-fit: cover;  /* Ensure the image covers the area */
+      }
+
+      /* Section Title */
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;  /* Center the section titles */
+      }
+
+      .content-text {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.8;
+        text-align: center; /* Centered text */
+        margin-bottom: 20px;
+      }
+
+      /* Flexbox Content Section */
+      .content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 40px;
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+      }
+
+      .content-container .text-content {
+        flex: 1;
+        padding-right: 20px;
+        text-align: justify; /* Justify text to spread it across */
+        margin-bottom: 20px;
+      }
+
+      /* Button Styles */
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+
+      footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body style="padding-top: 70px">
+    
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <img src="images/logo.jpg" width="160" height="100" alt="Hot Beans Web Logo"/>
+      <a class="navbar-brand" href="Index.html">Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Jobdepartment.html">Job Department</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="#">The Team</a>
+              <a class="dropdown-item" href="#">Another Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Courses</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Applynow.html">Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Full-width Image at the Top with Thinner Height -->
+
+    <!-- Main Content -->
+    <section class="container mt-5 pt-5">
+      <h1 class="section-title">Join Our Web Development Team at Hot Beans Web!</h1>
+      <p class="content-text">At Hot Beans Web, we specialize in creating dynamic, user-friendly web solutions. We’re always on the lookout for passionate individuals to join our growing team of web developers.</p>
+
+      <!-- Content Section with Text -->
+      <div class="content-container">
+        <div class="text-content">
+          <h2 class="section-title">Why Join Us?</h2>
+          <p class="content-text">As a member of our team, you’ll have the opportunity to work with cutting-edge technologies, collaborate with a creative and passionate team, and contribute to building innovative web solutions for our clients. We offer a collaborative, friendly environment and opportunities for growth and advancement.</p>
+        </div>
+      </div>
+
+      <!-- Available Positions Section -->
+      <div class="text-center mt-5">
+        <h2 class="section-title">Available Positions</h2>
+        <p class="content-text">We're currently looking for web developers with a variety of skill sets, including front-end, back-end, and full-stack development. If you're passionate about coding and eager to learn, we want to hear from you!</p>
+      </div>
+      
+      <!-- Call to Action -->
+      <div class="text-center mt-4">
+        <h2 class="section-title">Ready to Join Us?</h2>
+        <p class="content-text">Check out our job listings on the <a href="Jobdepartment.html">Job Department</a> page or <a href="Applynow.html" class="btn-primary">Apply Now</a> to start your journey with Hot Beans Web!</p>
+      </div>
+    </section>
+
+  
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
